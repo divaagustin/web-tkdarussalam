@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFF8DC"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="220" width="400" height="80" fill="#F5F5DC"/>
+  
+  <!-- Art table -->
+  <rect x="100" y="180" width="200" height="40" fill="#8B4513" rx="5"/>
+  <rect x="90" y="220" width="15" height="30" fill="#654321"/>
+  <rect x="295" y="220" width="15" height="30" fill="#654321"/>
+  
+  <!-- Art supplies on table -->
+  <!-- Paint palette -->
+  <ellipse cx="150" cy="190" rx="20" ry="15" fill="#FFF" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="185" r="3" fill="#FF0000"/>
+  <circle cx="150" cy="185" r="3" fill="#00FF00"/>
+  <circle cx="160" cy="185" r="3" fill="#0000FF"/>
+  <circle cx="145" cy="195" r="3" fill="#FFFF00"/>
+  <circle cx="155" cy="195" r="3" fill="#FF00FF"/>
+  
+  <!-- Paint brushes -->
+  <rect x="180" y="175" width="2" height="30" fill="#8B4513"/>
+  <rect x="178" y="175" width="6" height="8" fill="#C0C0C0"/>
+  <rect x="185" y="175" width="2" height="30" fill="#8B4513"/>
+  <rect x="183" y="175" width="6" height="8" fill="#C0C0C0"/>
+  
+  <!-- Paper/canvas -->
+  <rect x="220" y="170" width="60" height="40" fill="#FFF" stroke="#DDD" stroke-width="2" rx="2"/>
+  
+  <!-- Children doing art -->
+  <!-- Child 1 (left side) -->
+  <circle cx="120" cy="150" r="12" fill="#FFDBCB"/>
+  <circle cx="117" cy="147" r="1.5" fill="#333"/>
+  <circle cx="123" cy="147" r="1.5" fill="#333"/>
+  <path d="M 117 152 Q 120 155 123 152" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="112" y="162" width="16" height="20" fill="#FF6B6B" rx="2"/>
+  <rect x="109" y="182" width="6" height="15" fill="#4ECDC4" rx="1"/>
+  <rect x="125" y="182" width="6" height="15" fill="#4ECDC4" rx="1"/>
+  <!-- Arm holding brush -->
+  <rect x="128" y="165" width="15" height="4" fill="#FFDBCB" rx="2"/>
+  <rect x="143" y="163" width="8" height="2" fill="#8B4513"/>
+  
+  <!-- Child 2 (right side) -->
+  <circle cx="280" cy="150" r="12" fill="#F4C2A1"/>
+  <circle cx="277" cy="147" r="1.5" fill="#333"/>
+  <circle cx="283" cy="147" r="1.5" fill="#333"/>
+  <path d="M 277 152 Q 280 155 283 152" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="272" y="162" width="16" height="20" fill="#A8E6CF" rx="2"/>
+  <rect x="269" y="182" width="6" height="15" fill="#FFE66D" rx="1"/>
+  <rect x="285" y="182" width="6" height="15" fill="#FFE66D" rx="1"/>
+  <!-- Arm holding brush -->
+  <rect x="257" y="165" width="15" height="4" fill="#F4C2A1" rx="2"/>
+  <rect x="249" y="163" width="8" height="2" fill="#8B4513"/>
+  
+  <!-- Child 3 (center back) -->
+  <circle cx="200" cy="140" r="12" fill="#DDBEA9"/>
+  <circle cx="197" cy="137" r="1.5" fill="#333"/>
+  <circle cx="203" cy="137" r="1.5" fill="#333"/>
+  <path d="M 197 142 Q 200 145 203 142" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="192" y="152" width="16" height="20" fill="#C7CEEA" rx="2"/>
+  <rect x="189" y="172" width="6" height="15" fill="#FF8B94" rx="1"/>
+  <rect x="205" y="172" width="6" height="15" fill="#FF8B94" rx="1"/>
+  
+  <!-- Artwork on paper -->
+  <circle cx="235" cy="185" r="5" fill="#FF0000" opacity="0.7"/>
+  <circle cx="250" cy="180" r="4" fill="#00FF00" opacity="0.7"/>
+  <circle cx="265" cy="190" r="6" fill="#0000FF" opacity="0.7"/>
+  <path d="M 225 195 Q 240 185 255 195" stroke="#FFFF00" stroke-width="3" fill="none"/>
+  
+  <!-- Art display board -->
+  <rect x="20" y="50" width="100" height="80" fill="#F0F0F0" stroke="#333" stroke-width="2" rx="3"/>
+  <text x="70" y="70" text-anchor="middle" fill="#333" font-family="Arial" font-size="10">Our Art</text>
+  
+  <!-- Displayed artwork -->
+  <rect x="30" y="80" width="25" height="20" fill="#FFF" stroke="#DDD" stroke-width="1"/>
+  <circle cx="42" cy="90" r="3" fill="#FF6B6B"/>
+  <rect x="50" y="90" width="5" height="8" fill="#4ECDC4"/>
+  
+  <rect x="60" y="80" width="25" height="20" fill="#FFF" stroke="#DDD" stroke-width="1"/>
+  <polygon points="72,85 67,95 77,95" fill="#FFE66D"/>
+  <circle cx="72" cy="88" r="2" fill="#FF8B94"/>
+  
+  <rect x="90" y="80" width="25" height="20" fill="#FFF" stroke="#DDD" stroke-width="1"/>
+  <rect x="95" y="85" width="6" height="6" fill="#A8E6CF"/>
+  <circle cx="105" cy="92" r="3" fill="#C7CEEA"/>
+  
+  <!-- Art supplies shelf -->
+  <rect x="320" y="100" width="60" height="80" fill="#8B4513" rx="3"/>
+  <rect x="325" y="105" width="50" height="15" fill="#A0522D"/>
+  <rect x="325" y="130" width="50" height="15" fill="#A0522D"/>
+  <rect x="325" y="155" width="50" height="15" fill="#A0522D"/>
+  
+  <!-- Crayons on shelf -->
+  <rect x="330" y="107" width="3" height="10" fill="#FF0000"/>
+  <rect x="335" y="107" width="3" height="10" fill="#00FF00"/>
+  <rect x="340" y="107" width="3" height="10" fill="#0000FF"/>
+  <rect x="345" y="107" width="3" height="10" fill="#FFFF00"/>
+  <rect x="350" y="107" width="3" height="10" fill="#FF00FF"/>
+  
+  <!-- Glue and scissors -->
+  <rect x="330" y="132" width="8" height="12" fill="#FFF" rx="2"/>
+  <text x="334" y="140" text-anchor="middle" fill="#333" font-family="Arial" font-size="6">Glue</text>
+  
+  <!-- Paper stack -->
+  <rect x="350" y="157" width="20" height="10" fill="#FFF" stroke="#DDD" stroke-width="1"/>
+  <rect x="352" y="159" width="16" height="6" fill="#F0F0F0"/>
+  
+  <!-- Window with natural light -->
+  <rect x="300" y="30" width="80" height="60" fill="#87CEEB" rx="5"/>
+  <rect x="305" y="35" width="70" height="50" fill="#B0E0E6" rx="3"/>
+  <line x1="340" y1="35" x2="340" y2="85" stroke="#4682B4" stroke-width="2"/>
+  <line x1="305" y1="60" x2="375" y2="60" stroke="#4682B4" stroke-width="2"/>
+  
+  <!-- Sun rays through window -->
+  <line x1="320" y1="45" x2="310" y2="120" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+  <line x1="340" y1="40" x2="330" y2="115" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+  <line x1="360" y1="45" x2="350" y2="120" stroke="#FFD700" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="30" r="8" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="150" cy="20" r="6" fill="#32CD32" opacity="0.6"/>
+  <circle cx="250" cy="25" r="7" fill="#FFD700" opacity="0.6"/>
+  
+  <!-- Paint splatters on floor -->
+  <circle cx="80" cy="240" r="2" fill="#FF0000" opacity="0.3"/>
+  <circle cx="320" cy="250" r="3" fill="#00FF00" opacity="0.3"/>
+  <circle cx="160" cy="260" r="2" fill="#0000FF" opacity="0.3"/>
+  <circle cx="240" cy="245" r="2" fill="#FFFF00" opacity="0.3"/>
+</svg>

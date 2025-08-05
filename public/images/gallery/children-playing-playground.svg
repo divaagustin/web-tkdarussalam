@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Sky background -->
+  <rect width="400" height="300" fill="#87CEEB"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="80" cy="50" rx="25" ry="15" fill="white" opacity="0.8"/>
+  <ellipse cx="320" cy="40" rx="30" ry="18" fill="white" opacity="0.8"/>
+  <ellipse cx="200" cy="60" rx="20" ry="12" fill="white" opacity="0.8"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="200" width="400" height="100" fill="#90EE90"/>
+  
+  <!-- Playground equipment -->
+  <!-- Slide -->
+  <rect x="50" y="120" width="80" height="80" fill="#FF6B6B" rx="5"/>
+  <rect x="55" y="125" width="70" height="70" fill="#FF8E8E" rx="3"/>
+  <polygon points="130,180 180,180 180,200 130,200" fill="#4169E1"/>
+  
+  <!-- Swing set -->
+  <rect x="250" y="100" width="5" height="100" fill="#8B4513"/>
+  <rect x="300" y="100" width="5" height="100" fill="#8B4513"/>
+  <rect x="250" y="100" width="55" height="5" fill="#8B4513"/>
+  
+  <!-- Swing seats -->
+  <rect x="265" y="160" width="25" height="8" fill="#FFD700" rx="4"/>
+  <line x1="270" y1="105" x2="270" y2="160" stroke="#333" stroke-width="2"/>
+  <line x1="285" y1="105" x2="285" y2="160" stroke="#333" stroke-width="2"/>
+  
+  <!-- Children playing -->
+  <!-- Child 1 on slide -->
+  <circle cx="90" cy="140" r="12" fill="#FFDBCB"/>
+  <circle cx="87" cy="137" r="1.5" fill="#333"/>
+  <circle cx="93" cy="137" r="1.5" fill="#333"/>
+  <path d="M 87 142 Q 90 145 93 142" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="82" y="152" width="16" height="20" fill="#FF6B6B" rx="2"/>
+  <rect x="79" y="172" width="8" height="15" fill="#4ECDC4" rx="1"/>
+  <rect x="93" y="172" width="8" height="15" fill="#4ECDC4" rx="1"/>
+  
+  <!-- Child 2 on swing -->
+  <circle cx="277" cy="145" r="12" fill="#F4C2A1"/>
+  <circle cx="274" cy="142" r="1.5" fill="#333"/>
+  <circle cx="280" cy="142" r="1.5" fill="#333"/>
+  <path d="M 274 147 Q 277 150 280 147" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="269" y="157" width="16" height="20" fill="#A8E6CF" rx="2"/>
+  <rect x="266" y="177" width="8" height="15" fill="#FFE66D" rx="1"/>
+  <rect x="280" y="177" width="8" height="15" fill="#FFE66D" rx="1"/>
+  
+  <!-- Child 3 running -->
+  <circle cx="180" cy="180" r="12" fill="#DDBEA9"/>
+  <circle cx="177" cy="177" r="1.5" fill="#333"/>
+  <circle cx="183" cy="177" r="1.5" fill="#333"/>
+  <path d="M 177 182 Q 180 185 183 182" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="172" y="192" width="16" height="20" fill="#C7CEEA" rx="2"/>
+  <rect x="169" y="212" width="8" height="15" fill="#FF8B94" rx="1"/>
+  <rect x="183" y="212" width="8" height="15" fill="#FF8B94" rx="1"/>
+  
+  <!-- Child 4 playing with ball -->
+  <circle cx="320" cy="180" r="12" fill="#F7D794"/>
+  <circle cx="317" cy="177" r="1.5" fill="#333"/>
+  <circle cx="323" cy="177" r="1.5" fill="#333"/>
+  <path d="M 317 182 Q 320 185 323 182" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="312" y="192" width="16" height="20" fill="#FFEAA7" rx="2"/>
+  <rect x="309" y="212" width="8" height="15" fill="#DDA0DD" rx="1"/>
+  <rect x="323" y="212" width="8" height="15" fill="#DDA0DD" rx="1"/>
+  
+  <!-- Ball -->
+  <circle cx="340" cy="170" r="8" fill="#FF4500"/>
+  <circle cx="340" cy="170" r="6" fill="#FF6347" opacity="0.7"/>
+  
+  <!-- Trees -->
+  <rect x="15" y="150" width="8" height="50" fill="#8B4513"/>
+  <circle cx="19" cy="140" r="20" fill="#228B22"/>
+  
+  <rect x="360" y="160" width="8" height="40" fill="#8B4513"/>
+  <circle cx="364" cy="150" r="18" fill="#32CD32"/>
+  
+  <!-- Flowers -->
+  <circle cx="120" cy="220" r="3" fill="#FF69B4"/>
+  <circle cx="125" cy="225" r="3" fill="#FFB6C1"/>
+  <circle cx="200" cy="230" r="3" fill="#FF1493"/>
+  <circle cx="280" cy="225" r="3" fill="#FF69B4"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="70" r="25" fill="#FFD700"/>
+  <line x1="350" y1="30" x2="350" y2="40" stroke="#FFD700" stroke-width="3"/>
+  <line x1="380" y1="70" x2="390" y2="70" stroke="#FFD700" stroke-width="3"/>
+  <line x1="370" y1="50" x2="377" y2="43" stroke="#FFD700" stroke-width="3"/>
+  <line x1="370" y1="90" x2="377" y2="97" stroke="#FFD700" stroke-width="3"/>
+  <line x1="330" y1="50" x2="323" y2="43" stroke="#FFD700" stroke-width="3"/>
+  <line x1="330" y1="90" x2="323" y2="97" stroke="#FFD700" stroke-width="3"/>
+</svg>

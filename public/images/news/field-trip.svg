@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Sky background -->
+  <rect width="400" height="200" fill="#87CEEB"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="80" cy="40" rx="20" ry="12" fill="#FFF" opacity="0.8"/>
+  <ellipse cx="95" cy="35" rx="15" ry="10" fill="#FFF" opacity="0.8"/>
+  <ellipse cx="110" cy="40" rx="18" ry="11" fill="#FFF" opacity="0.8"/>
+  
+  <ellipse cx="300" cy="50" rx="25" ry="15" fill="#FFF" opacity="0.8"/>
+  <ellipse cx="320" cy="45" rx="20" ry="12" fill="#FFF" opacity="0.8"/>
+  <ellipse cx="340" cy="50" rx="22" ry="13" fill="#FFF" opacity="0.8"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="60" r="25" fill="#FFD700"/>
+  <!-- Sun rays -->
+  <line x1="350" y1="25" x2="350" y2="35" stroke="#FFD700" stroke-width="3"/>
+  <line x1="350" y1="85" x2="350" y2="95" stroke="#FFD700" stroke-width="3"/>
+  <line x1="315" y1="60" x2="325" y2="60" stroke="#FFD700" stroke-width="3"/>
+  <line x1="375" y1="60" x2="385" y2="60" stroke="#FFD700" stroke-width="3"/>
+  <line x1="325" y1="35" x2="332" y2="42" stroke="#FFD700" stroke-width="3"/>
+  <line x1="368" y1="78" x2="375" y2="85" stroke="#FFD700" stroke-width="3"/>
+  <line x1="375" y1="35" x2="368" y2="42" stroke="#FFD700" stroke-width="3"/>
+  <line x1="325" y1="85" x2="332" y2="78" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="200" width="400" height="100" fill="#90EE90"/>
+  
+  <!-- School bus -->
+  <rect x="50" y="160" width="120" height="50" fill="#FFD700" rx="5"/>
+  <rect x="55" y="165" width="110" height="30" fill="#FFA500" rx="3"/>
+  
+  <!-- Bus windows -->
+  <rect x="60" y="170" width="15" height="12" fill="#87CEEB" rx="2"/>
+  <rect x="80" y="170" width="15" height="12" fill="#87CEEB" rx="2"/>
+  <rect x="100" y="170" width="15" height="12" fill="#87CEEB" rx="2"/>
+  <rect x="120" y="170" width="15" height="12" fill="#87CEEB" rx="2"/>
+  <rect x="140" y="170" width="15" height="12" fill="#87CEEB" rx="2"/>
+  
+  <!-- Bus door -->
+  <rect x="155" y="175" width="8" height="20" fill="#333" rx="1"/>
+  <circle cx="161" cy="185" r="1" fill="#C0C0C0"/>
+  
+  <!-- Bus wheels -->
+  <circle cx="70" cy="210" r="12" fill="#333"/>
+  <circle cx="70" cy="210" r="8" fill="#666"/>
+  <circle cx="150" cy="210" r="12" fill="#333"/>
+  <circle cx="150" cy="210" r="8" fill="#666"/>
+  
+  <!-- Bus headlights -->
+  <circle cx="45" cy="185" r="4" fill="#FFF"/>
+  <circle cx="45" cy="195" r="4" fill="#FFF"/>
+  
+  <!-- Children getting off the bus -->
+  <!-- Child 1 -->
+  <circle cx="180" cy="175" r="8" fill="#FFDBCB"/>
+  <circle cx="178" cy="172" r="1" fill="#333"/>
+  <circle cx="182" cy="172" r="1" fill="#333"/>
+  <path d="M 178 177 Q 180 179 182 177" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="174" y="183" width="12" height="15" fill="#FF6B6B" rx="2"/>
+  <rect x="172" y="198" width="4" height="12" fill="#4ECDC4" rx="1"/>
+  <rect x="184" y="198" width="4" height="12" fill="#4ECDC4" rx="1"/>
+  <!-- Backpack -->
+  <rect x="170" y="185" width="6" height="8" fill="#8B4513" rx="1"/>
+  
+  <!-- Child 2 -->
+  <circle cx="200" cy="175" r="8" fill="#F4C2A1"/>
+  <circle cx="198" cy="172" r="1" fill="#333"/>
+  <circle cx="202" cy="172" r="1" fill="#333"/>
+  <path d="M 198 177 Q 200 179 202 177" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="194" y="183" width="12" height="15" fill="#A8E6CF" rx="2"/>
+  <rect x="192" y="198" width="4" height="12" fill="#FFE66D" rx="1"/>
+  <rect x="204" y="198" width="4" height="12" fill="#FFE66D" rx="1"/>
+  <!-- Backpack -->
+  <rect x="190" y="185" width="6" height="8" fill="#FF1493" rx="1"/>
+  
+  <!-- Teacher with children -->
+  <circle cx="220" cy="170" r="10" fill="#F4C2A1"/>
+  <circle cx="217" cy="166" r="1.5" fill="#333"/>
+  <circle cx="223" cy="166" r="1.5" fill="#333"/>
+  <path d="M 217 172 Q 220 175 223 172" stroke="#333" stroke-width="1" fill="none"/>
+  <!-- Hair -->
+  <path d="M 210 165 Q 220 155 230 165" fill="#8B4513"/>
+  <rect x="212" y="180" width="16" height="20" fill="#4169E1" rx="2"/>
+  <rect x="209" y="200" width="6" height="15" fill="#2F4F4F" rx="1"/>
+  <rect x="225" y="200" width="6" height="15" fill="#2F4F4F" rx="1"/>
+  
+  <!-- Zoo/Park setting -->
+  <!-- Trees -->
+  <rect x="280" y="180" width="8" height="20" fill="#8B4513"/>
+  <circle cx="284" cy="170" r="15" fill="#228B22"/>
+  <circle cx="290" cy="165" r="12" fill="#32CD32"/>
+  <circle cx="278" cy="165" r="10" fill="#90EE90"/>
+  
+  <rect x="320" y="185" width="6" height="15" fill="#8B4513"/>
+  <circle cx="323" cy="175" r="12" fill="#228B22"/>
+  <circle cx="328" cy="170" r="10" fill="#32CD32"/>
+  <circle cx="318" cy="170" r="8" fill="#90EE90"/>
+  
+  <!-- Flowers -->
+  <circle cx="250" cy="210" r="3" fill="#FF69B4"/>
+  <rect x="249" y="210" width="2" height="8" fill="#228B22"/>
+  <circle cx="260" cy="215" r="3" fill="#FFD700"/>
+  <rect x="259" y="215" width="2" height="8" fill="#228B22"/>
+  <circle cx="270" cy="212" r="3" fill="#FF6347"/>
+  <rect x="269" y="212" width="2" height="8" fill="#228B22"/>
+  
+  <!-- Zoo animals (simple) -->
+  <!-- Giraffe in background -->
+  <rect x="350" y="140" width="8" height="60" fill="#DAA520"/>
+  <circle cx="354" cy="135" r="8" fill="#DAA520"/>
+  <rect x="352" y="130" width="4" height="8" fill="#DAA520"/>
+  <!-- Giraffe spots -->
+  <circle cx="352" cy="150" r="2" fill="#8B4513"/>
+  <circle cx="356" cy="160" r="2" fill="#8B4513"/>
+  <circle cx="351" cy="170" r="2" fill="#8B4513"/>
+  
+  <!-- Elephant silhouette -->
+  <ellipse cx="30" cy="180" rx="15" ry="10" fill="#696969"/>
+  <circle cx="25" cy="175" r="8" fill="#696969"/>
+  <rect x="20" y="175" width="3" height="8" fill="#696969"/>
+  <rect x="18" y="190" width="4" height="10" fill="#696969"/>
+  <rect x="25" y="190" width="4" height="10" fill="#696969"/>
+  <rect x="32" y="190" width="4" height="10" fill="#696969"/>
+  <rect x="39" y="190" width="4" height="10" fill="#696969"/>
+  
+  <!-- Path/walkway -->
+  <ellipse cx="200" cy="230" rx="80" ry="15" fill="#D2B48C" opacity="0.7"/>
+  
+  <!-- Children exploring -->
+  <!-- Child pointing at animals -->
+  <circle cx="300" cy="190" r="8" fill="#DDBEA9"/>
+  <circle cx="298" cy="187" r="1" fill="#333"/>
+  <circle cx="302" cy="187" r="1" fill="#333"/>
+  <path d="M 298 192 Q 300 194 302 192" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="294" y="198" width="12" height="15" fill="#C7CEEA" rx="2"/>
+  <rect x="292" y="213" width="4" height="12" fill="#FF8B94" rx="1"/>
+  <rect x="304" y="213" width="4" height="12" fill="#FF8B94" rx="1"/>
+  <!-- Pointing arm -->
+  <rect x="306" y="200" width="12" height="3" fill="#DDBEA9" rx="1"/>
+  
+  <!-- Child with camera/phone -->
+  <circle cx="250" cy="195" r="8" fill="#F4C2A1"/>
+  <circle cx="248" cy="192" r="1" fill="#333"/>
+  <circle cx="252" cy="192" r="1" fill="#333"/>
+  <path d="M 248 197 Q 250 199 252 197" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="244" y="203" width="12" height="15" fill="#FFE66D" rx="2"/>
+  <rect x="242" y="218" width="4" height="12" fill="#A8E6CF" rx="1"/>
+  <rect x="254" y="218" width="4" height="12" fill="#A8E6CF" rx="1"/>
+  <!-- Camera -->
+  <rect x="240" y="200" width="6" height="4" fill="#333" rx="1"/>
+  <circle cx="242" cy="202" r="1" fill="#FFF"/>
+  
+  <!-- Butterflies -->
+  <ellipse cx="150" cy="100" rx="3" ry="2" fill="#FF69B4" transform="rotate(15 150 100)"/>
+  <ellipse cx="154" cy="100" rx="3" ry="2" fill="#FF1493" transform="rotate(-15 154 100)"/>
+  <line x1="152" y1="98" x2="152" y2="102" stroke="#333" stroke-width="1"/>
+  
+  <ellipse cx="280" cy="120" rx="2" ry="1.5" fill="#FFD700" transform="rotate(20 280 120)"/>
+  <ellipse cx="283" cy="120" rx="2" ry="1.5" fill="#FFA500" transform="rotate(-20 283 120)"/>
+  <line x1="281.5" y1="118" x2="281.5" y2="122" stroke="#333" stroke-width="1"/>
+  
+  <!-- Excitement lines -->
+  <path d="M 185 160 L 190 155 M 185 155 L 190 160" stroke="#FFD700" stroke-width="2"/>
+  <path d="M 205 160 L 210 155 M 205 155 L 210 160" stroke="#FFD700" stroke-width="2"/>
+  <path d="M 305 175 L 310 170 M 305 170 L 310 175" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Title banner -->
+  <rect x="10" y="250" width="380" height="25" fill="#4169E1" rx="5" opacity="0.8"/>
+  <text x="200" y="267" text-anchor="middle" fill="#FFF" font-family="Arial" font-size="14" font-weight="bold">🚌 Field Trip to the Zoo 🦒</text>
+</svg>

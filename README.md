@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Website TK Darussalam Asahan
 
-## Getting Started
+Website resmi Taman Kanak-Kanak Darussalam Asahan yang dibangun menggunakan Next.js, Tailwind CSS, dan MySQL.
 
-First, run the development server:
+## Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Halaman Publik
+1. **Beranda** - Halaman utama dengan informasi sekolah
+2. **Tentang Kami** - Sejarah, visi, misi, dan fasilitas sekolah
+3. **Galeri** - Koleksi foto dan video kegiatan sekolah
+4. **Berita** - Artikel dan pengumuman terbaru
+5. **Hubungi Kami** - Informasi kontak dan formulir pesan
+6. **Pendaftaran** - Formulir pendaftaran siswa baru
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Dashboard Admin
+- Login/logout admin
+- Manajemen berita (CRUD)
+- Manajemen galeri (CRUD)
+- Manajemen pendaftaran siswa
+- Pengaturan sekolah
+- Ubah password admin
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Teknologi yang Digunakan
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js 14, React, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **Database**: MySQL
+- **Authentication**: JWT dengan HTTP-only cookies
+- **Icons**: Heroicons, Lucide React
+- **UI Components**: Headless UI
 
-## Learn More
+## Instalasi dan Setup
 
-To learn more about Next.js, take a look at the following resources:
+### Prasyarat
+- Node.js (versi 18 atau lebih baru)
+- MySQL Server
+- npm atau yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Langkah Instalasi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+2. **Setup Database**
+   - Buat database MySQL baru
+   - Update konfigurasi database di file `.env.local`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Konfigurasi Environment Variables**
+   
+   File `.env.local` sudah tersedia dengan konfigurasi:
+   ```env
+   # Database Configuration
+   DB_HOST=localhost
+   DB_USER=your_mysql_username
+   DB_PASSWORD=your_mysql_password
+   DB_NAME=tk_darussalam
+   
+   # NextAuth Configuration
+   NEXTAUTH_SECRET=your-secret-key-here
+   NEXTAUTH_URL=http://localhost:3000
+   
+   # Default Admin Credentials
+   ADMIN_USERNAME=admin
+   ADMIN_PASSWORD=admin123
+   ADMIN_EMAIL=admin@tkdarussalam.sch.id
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Jalankan Development Server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Akses Website**
+   - Website: http://localhost:3000
+   - Admin Dashboard: http://localhost:3000/admin
+
+## Kredensial Default Admin
+
+- **Username**: admin
+- **Password**: admin123
+- **Email**: admin@tkdarussalam.sch.id
+
+*Pastikan untuk mengubah password default setelah login pertama kali.*
+
+## Struktur Database
+
+Database akan dibuat otomatis saat pertama kali menjalankan aplikasi dengan tabel:
+- `berita` - Manajemen artikel dan berita
+- `galeri` - Koleksi foto dan video
+- `pendaftaran` - Data pendaftaran siswa baru
+- `admin` - Data administrator
+
+## API Endpoints
+
+- `/api/berita` - CRUD operasi untuk berita
+- `/api/galeri` - CRUD operasi untuk galeri
+- `/api/pendaftaran` - CRUD operasi untuk pendaftaran
+- `/api/auth/login` - Autentikasi admin
+- `/api/auth/verify` - Verifikasi token
+- `/api/auth/change-password` - Ubah password
+- `/api/settings` - Pengaturan sekolah
+
+## Kontak
+
+Untuk pertanyaan atau dukungan teknis:
+- Email: info@tkdarussalam.sch.id
+- Telepon: (0623) 123-4567
+- Website: www.tkdarussalam.sch.id

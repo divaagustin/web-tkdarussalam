@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#E3F2FD"/>
+  
+  <!-- Classroom floor -->
+  <rect x="0" y="400" width="800" height="200" fill="#FFF3E0"/>
+  
+  <!-- Classroom walls -->
+  <rect x="0" y="0" width="800" height="400" fill="#F8F9FA"/>
+  
+  <!-- Blackboard -->
+  <rect x="50" y="80" width="200" height="120" fill="#2E7D32" rx="5"/>
+  <text x="150" y="130" text-anchor="middle" fill="white" font-family="Arial" font-size="16">ABC 123</text>
+  <text x="150" y="150" text-anchor="middle" fill="white" font-family="Arial" font-size="12">🌟 ⭐ 🎨</text>
+  
+  <!-- Windows -->
+  <rect x="600" y="100" width="120" height="80" fill="#87CEEB" rx="5"/>
+  <rect x="610" y="110" width="100" height="60" fill="#B0E0E6" rx="3"/>
+  <line x1="660" y1="110" x2="660" y2="170" stroke="#4682B4" stroke-width="2"/>
+  <line x1="610" y1="140" x2="710" y2="140" stroke="#4682B4" stroke-width="2"/>
+  
+  <!-- Desks and chairs -->
+  <!-- Desk 1 -->
+  <rect x="150" y="280" width="60" height="40" fill="#8D6E63" rx="3"/>
+  <rect x="140" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  <rect x="190" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  
+  <!-- Desk 2 -->
+  <rect x="250" y="280" width="60" height="40" fill="#8D6E63" rx="3"/>
+  <rect x="240" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  <rect x="290" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  
+  <!-- Desk 3 -->
+  <rect x="400" y="280" width="60" height="40" fill="#8D6E63" rx="3"/>
+  <rect x="390" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  <rect x="440" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  
+  <!-- Desk 4 -->
+  <rect x="500" y="280" width="60" height="40" fill="#8D6E63" rx="3"/>
+  <rect x="490" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  <rect x="540" y="320" width="20" height="30" fill="#6D4C41" rx="2"/>
+  
+  <!-- Children -->
+  <!-- Child 1 (sitting at desk 1) -->
+  <circle cx="180" cy="250" r="15" fill="#FFDBCB"/>
+  <circle cx="175" cy="245" r="2" fill="#333"/>
+  <circle cx="185" cy="245" r="2" fill="#333"/>
+  <path d="M 175 250 Q 180 255 185 250" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="170" y="265" width="20" height="25" fill="#FF6B6B" rx="3"/>
+  <rect x="165" y="290" width="10" height="20" fill="#4ECDC4" rx="2"/>
+  <rect x="185" y="290" width="10" height="20" fill="#4ECDC4" rx="2"/>
+  <rect x="160" y="310" width="15" height="8" fill="#333" rx="2"/>
+  <rect x="185" y="310" width="15" height="8" fill="#333" rx="2"/>
+  
+  <!-- Child 2 (sitting at desk 2) -->
+  <circle cx="280" cy="250" r="15" fill="#F4C2A1"/>
+  <circle cx="275" cy="245" r="2" fill="#333"/>
+  <circle cx="285" cy="245" r="2" fill="#333"/>
+  <path d="M 275 250 Q 280 255 285 250" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="270" y="265" width="20" height="25" fill="#4ECDC4" rx="3"/>
+  <rect x="265" y="290" width="10" height="20" fill="#FFE66D" rx="2"/>
+  <rect x="285" y="290" width="10" height="20" fill="#FFE66D" rx="2"/>
+  <rect x="260" y="310" width="15" height="8" fill="#333" rx="2"/>
+  <rect x="285" y="310" width="15" height="8" fill="#333" rx="2"/>
+  
+  <!-- Child 3 (sitting at desk 3) -->
+  <circle cx="430" cy="250" r="15" fill="#DDBEA9"/>
+  <circle cx="425" cy="245" r="2" fill="#333"/>
+  <circle cx="435" cy="245" r="2" fill="#333"/>
+  <path d="M 425 250 Q 430 255 435 250" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="420" y="265" width="20" height="25" fill="#A8E6CF" rx="3"/>
+  <rect x="415" y="290" width="10" height="20" fill="#FF8B94" rx="2"/>
+  <rect x="435" y="290" width="10" height="20" fill="#FF8B94" rx="2"/>
+  <rect x="410" y="310" width="15" height="8" fill="#333" rx="2"/>
+  <rect x="435" y="310" width="15" height="8" fill="#333" rx="2"/>
+  
+  <!-- Child 4 (sitting at desk 4) -->
+  <circle cx="530" cy="250" r="15" fill="#F7D794"/>
+  <circle cx="525" cy="245" r="2" fill="#333"/>
+  <circle cx="535" cy="245" r="2" fill="#333"/>
+  <path d="M 525 250 Q 530 255 535 250" stroke="#333" stroke-width="1" fill="none"/>
+  <rect x="520" y="265" width="20" height="25" fill="#C7CEEA" rx="3"/>
+  <rect x="515" y="290" width="10" height="20" fill="#FFEAA7" rx="2"/>
+  <rect x="535" y="290" width="10" height="20" fill="#FFEAA7" rx="2"/>
+  <rect x="510" y="310" width="15" height="8" fill="#333" rx="2"/>
+  <rect x="535" y="310" width="15" height="8" fill="#333" rx="2"/>
+  
+  <!-- Books and supplies on desks -->
+  <rect x="155" y="275" width="8" height="10" fill="#E74C3C" rx="1"/>
+  <rect x="165" y="275" width="8" height="10" fill="#3498DB" rx="1"/>
+  <circle cx="190" cy="285" r="3" fill="#F39C12"/>
+  
+  <rect x="255" y="275" width="8" height="10" fill="#9B59B6" rx="1"/>
+  <rect x="265" y="275" width="8" height="10" fill="#2ECC71" rx="1"/>
+  <circle cx="290" cy="285" r="3" fill="#E67E22"/>
+  
+  <rect x="405" y="275" width="8" height="10" fill="#1ABC9C" rx="1"/>
+  <rect x="415" y="275" width="8" height="10" fill="#F1C40F" rx="1"/>
+  <circle cx="440" cy="285" r="3" fill="#E91E63"/>
+  
+  <rect x="505" y="275" width="8" height="10" fill="#34495E" rx="1"/>
+  <rect x="515" y="275" width="8" height="10" fill="#16A085" rx="1"/>
+  <circle cx="540" cy="285" r="3" fill="#D35400"/>
+  
+  <!-- Decorative elements -->
+  <!-- Alphabet poster -->
+  <rect x="300" y="50" width="80" height="60" fill="#FFF" stroke="#DDD" stroke-width="2" rx="3"/>
+  <text x="340" y="70" text-anchor="middle" fill="#333" font-family="Arial" font-size="10">A B C</text>
+  <text x="340" y="85" text-anchor="middle" fill="#333" font-family="Arial" font-size="10">D E F</text>
+  <text x="340" y="100" text-anchor="middle" fill="#333" font-family="Arial" font-size="10">G H I</text>
+  
+  <!-- Number chart -->
+  <rect x="420" y="50" width="80" height="60" fill="#FFF" stroke="#DDD" stroke-width="2" rx="3"/>
+  <text x="460" y="70" text-anchor="middle" fill="#333" font-family="Arial" font-size="10">1 2 3</text>
+  <text x="460" y="85" text-anchor="middle" fill="#333" font-family="Arial" font-size="10">4 5 6</text>
+  <text x="460" y="100" text-anchor="middle" fill="#333" font-family="Arial" font-size="10">7 8 9</text>
+  
+  <!-- Colorful border decorations -->
+  <circle cx="100" cy="50" r="8" fill="#FF6B6B" opacity="0.7"/>
+  <circle cx="700" cy="80" r="8" fill="#4ECDC4" opacity="0.7"/>
+  <circle cx="750" cy="150" r="8" fill="#FFE66D" opacity="0.7"/>
+  <circle cx="50" cy="200" r="8" fill="#A8E6CF" opacity="0.7"/>
+  <circle cx="750" cy="250" r="8" fill="#FF8B94" opacity="0.7"/>
+  
+  <!-- Stars -->
+  <polygon points="120,30 125,40 135,40 127,47 130,57 120,50 110,57 113,47 105,40 115,40" fill="#F39C12" opacity="0.8"/>
+  <polygon points="680,30 685,40 695,40 687,47 690,57 680,50 670,57 673,47 665,40 675,40" fill="#E74C3C" opacity="0.8"/>
+  <polygon points="50,350 55,360 65,360 57,367 60,377 50,370 40,377 43,367 35,360 45,360" fill="#9B59B6" opacity="0.8"/>
+  <polygon points="720,350 725,360 735,360 727,367 730,377 720,370 710,377 713,367 705,360 715,360" fill="#2ECC71" opacity="0.8"/>
+</svg>
