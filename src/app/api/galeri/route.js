@@ -1,16 +1,34 @@
 import { NextResponse } from 'next/server';
+// Pastikan path ini benar menuju file koneksi database Anda
 import { getConnection, initializeDatabase } from '@/lib/db';
 
 export async function GET(request) {
   try {
+    // Fungsi ini bisa jadi tidak efisien jika dijalankan setiap saat, 
+    // tetapi kita biarkan dulu untuk fokus pada error utama.
     await initializeDatabase();
     const connection = await getConnection();
     
     const { searchParams } = new URL(request.url);
     const category = searchParams.get('category');
     const type = searchParams.get('type');
-    const limit = searchParams.get('limit') || 12;
-    const offset = searchParams.get('offset') || 0;
+
+    // --- PERBAIKAN VALIDASI INPUT ---
+    const limitParam = searchParams.get('limit');
+    const offsetParam = searchParams.get('offset');
+
+    // Ubah ke angka, cek apakah valid, dan pastikan tidak negatif
+    let limit = parseInt(limitParam, 10);
+    if (isNaN(limit) || limit <= 0) {
+      limit = 12; // Gunakan nilai default yang aman jika tidak valid
+    }
+
+    // Lakukan hal yang sama untuk offset
+    let offset = parseInt(offsetParam, 10);
+    if (isNaN(offset) || offset < 0) {
+      offset = 0; // Gunakan nilai default yang aman jika tidak valid
+    }
+    // --- SELESAI PERBAIKAN VALIDASI INPUT ---
     
     let query = 'SELECT * FROM galeri WHERE 1=1';
     let params = [];
@@ -26,7 +44,8 @@ export async function GET(request) {
     }
     
     query += ' ORDER BY tanggal_dibuat DESC LIMIT ? OFFSET ?';
-    params.push(parseInt(limit), parseInt(offset));
+    // Sekarang kita yakin limit dan offset adalah angka yang valid
+    params.push(limit, offset);
     
     const [rows] = await connection.execute(query, params);
     
@@ -54,18 +73,18 @@ export async function GET(request) {
       data: rows,
       pagination: {
         total,
-        limit: parseInt(limit),
-        offset: parseInt(offset),
-        hasMore: parseInt(offset) + parseInt(limit) < total
+        limit: limit, // Gunakan variabel yang sudah divalidasi
+        offset: offset, // Gunakan variabel yang sudah divalidasi
+        hasMore: offset + limit < total
       }
     });
   } catch (error) {
-    console.error("!!! DATABASE ERROR DI /api/galeri !!!:", error);
+    // Log error yang sebenarnya untuk debugging
+    console.error("!!! DATABASE ERROR DI /api/galeri [GET] !!!:", error);
     return NextResponse.json(
       { success: false, error: 'Failed to fetch galeri' },
       { status: 500 }
     );
-    
   }
 }
 
@@ -113,6 +132,8 @@ export async function POST(request) {
       }
     });
   } catch (error) {
+    // PERBAIKAN: Menambahkan error logging
+    console.error("!!! DATABASE ERROR DI /api/galeri [POST] !!!:", error);
     return NextResponse.json(
       { success: false, error: 'Failed to create galeri' },
       { status: 500 }
@@ -165,6 +186,8 @@ export async function PUT(request) {
       data: { id, judul, deskripsi, kategori, tipe, url_media, thumbnail }
     });
   } catch (error) {
+    // PERBAIKAN: Menambahkan error logging
+    console.error("!!! DATABASE ERROR DI /api/galeri [PUT] !!!:", error);
     return NextResponse.json(
       { success: false, error: 'Failed to update galeri' },
       { status: 500 }
@@ -204,6 +227,8 @@ export async function DELETE(request) {
       message: 'Galeri item deleted successfully'
     });
   } catch (error) {
+    // PERBAIKAN: Menambahkan error logging
+    console.error("!!! DATABASE ERROR DI /api/galeri [DELETE] !!!:", error);
     return NextResponse.json(
       { success: false, error: 'Failed to delete galeri' },
       { status: 500 }
