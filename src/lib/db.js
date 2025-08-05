@@ -240,20 +240,6 @@ export async function initializeDatabase() {
       )
     `);
     
-    // Create settings table
-    await connection.execute(`
-      CREATE TABLE IF NOT EXISTS settings (
-        id INT PRIMARY KEY DEFAULT 1,
-        nama_sekolah VARCHAR(255) DEFAULT 'TK Darussalam',
-        alamat TEXT DEFAULT 'Jl. Contoh No. 123, Kota, Provinsi',
-        telepon VARCHAR(20) DEFAULT '021-12345678',
-        email VARCHAR(100) DEFAULT 'info@tkdarussalam.sch.id',
-        website VARCHAR(100) DEFAULT 'www.tkdarussalam.sch.id',
-        deskripsi TEXT DEFAULT 'TK Darussalam adalah lembaga pendidikan anak usia dini yang berkomitmen memberikan pendidikan terbaik.',
-        tanggal_diperbarui TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-      )
-    `);
-    
     // Check if default admin exists
     const [adminExists] = await connection.execute(
       'SELECT COUNT(*) as count FROM admin WHERE username = ?',
