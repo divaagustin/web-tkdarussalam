@@ -60,10 +60,12 @@ export async function GET(request) {
       }
     });
   } catch (error) {
+    console.error("!!! DATABASE ERROR DI /api/galeri !!!:", error);
     return NextResponse.json(
       { success: false, error: 'Failed to fetch galeri' },
       { status: 500 }
     );
+    
   }
 }
 
