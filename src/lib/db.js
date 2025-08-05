@@ -7,6 +7,11 @@ const dbConfig = {
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || '',
   database: process.env.DB_NAME || 'tk_darussalam',
+  port: process.env.DB_PORT,
+    // Bagian ini adalah kunci untuk koneksi SSL ke Aiven
+    ssl: {
+      ca: process.env.AIVEN_CA_CERT,
+    },
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
